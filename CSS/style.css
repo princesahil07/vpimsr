@@ -1,0 +1,162 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+}
+.head-number{
+	font-size: 15px;
+	color: #000;
+}
+.head-email{
+	font-size: 15px;
+	color: #000;
+	margin-left: 20px;
+}
+.bg-color{
+	background: #fff;
+}
+.bg-colort{
+	background: #fff;
+}
+.nav-item:hover{
+	background: #ad93ed;
+}
+.dropdown-item{
+	color: red;
+}
+.a: hover{
+	color : #b73653;
+	background-color: #47b5b0;
+}
+.anno{
+	background: yellow;
+	padding: 14px;
+	font-size: 20px;
+}
+.anno-aria{
+	background: gray;
+	padding: 15px;
+	font-size: 20px;
+}
+.anno-text{
+	font-size:20px;
+	color:#44280b;
+	font-weight: bold;
+}
+.image-1{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+.cont-1:hover .overlay{
+	opacity: 1;
+}
+.text{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform : translate(-50%, -50%);
+	-ms-transform : translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.im-bc{
+	background: #008CBA;
+	margin-top: 3px;
+	padding: 9px;
+	font-size: 20px;
+}
+h1 {
+	color: #999999;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+p {
+	color: #44280b;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+.alumnibackimg{
+	background-image: url('images/slider/slide1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.cen{
+	text-align: center;
+}
+
+.slide-image{
+	color:white;
+	background: rgba(0, 0, 0, 0.6) !important;
+	padding: 8px;
+	border-radius: 10px;
+}
+.anno-head{
+	border: 2px solid red;
+	font-size:20px;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cen:hover{
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.image-info{
+	background-image: url('images/slider/slide1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.gallary-img{
+	border: 2px solid black;
+}
+.gallary-img:hover{
+	background: rgba(0, 0, 0, 0.6);
+}
+.card{
+	background-color: #f8f9fa;
+}
+.card:hover{
+	background-color: #8fd3cd;
+}
+.central-card:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+}
